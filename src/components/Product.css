@@ -1,0 +1,34 @@
+.product {
+    border: 1px solid #333;
+    border-radius: 5px;
+    margin: 12px;
+    background-color: white;
+    display: inline-block;
+    width: 250px;
+    height: auto;
+    padding: 5px 0px;
+}
+.product h3 {
+    color: tomato;
+}
+
+.price-section {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.prices {
+    display: flex;
+    flex-direction: column;
+}
+
+.product img {
+    width: 100%;
+    height: 248px;
+    object-fit: cover;
+}
+
+.add-button {
+    margin-bottom: 5px;
+}
