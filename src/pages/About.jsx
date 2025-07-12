@@ -11,11 +11,14 @@ function About() {
     }
 
     return (
-        <div className="about">
+        <div className="about page">
+            
             <h3>About Us</h3>
+            <img className="img-1" src="/images/aboutus.jpg"  alt="..."></img>
+            
             <div className="box">
-                <h2>Luis Renteria</h2>
-                { visibleEmail ? <h5>lrenteria@sdgku.edu</h5> : <label>Click the button to see my email</label>}
+                <h2>Alexis Navarro</h2>
+                { visibleEmail ? <h5>anavarro776@gmail.com</h5> : <label>Click the button to see my email</label>}
                 <br/>
                 {
                     !visibleEmail 

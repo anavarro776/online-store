@@ -4,7 +4,7 @@
     align-items: center;
     height: 60px;
     padding: 5px;
-    background-color: lightgray;
+    background-color: gray;
 }
 
 a {
@@ -18,4 +18,13 @@ a {
 
 a:hover {
     color: red;
+}
+.dflex{
+    justify-content: space-between;
+}
+
+.btn-user{
+    
+    
+    margin-right: 10px;
 }

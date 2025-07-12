@@ -3,7 +3,7 @@ import "./Footer.css";
 function Footer() {
     return (
         <div className="footer">
-            <h5>Created by: Luis Renteria</h5>
+            <h5>Created by: Alexis Navarro</h5>
         </div>
     );
 }

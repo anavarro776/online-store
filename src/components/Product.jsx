@@ -1,9 +1,23 @@
+import { useContext } from "react";
 import "./Product.css";
 import QuantityPicker from "./QuantityPicker";
 
-function Product(props) {
+import DataContext from "../state/DataContext";
 
-    console.log(props);
+function Product(props){
+
+   const addProductToCart = useContext(DataContext).addProductToCart;
+    
+      function add (){
+        console.log("ADDING PROD",);
+       let copy = {...props.data};
+       copy.quantity=1;
+        addProductToCart(copy);
+       
+      } 
+    
+    
+    
 
     return (
         <div className="product">
@@ -20,7 +34,7 @@ function Product(props) {
                 </div> 
             </div>
             <div className="add-button">
-                <button className="btn btn-sm btn-success">Add</button>
+                <button onClick={add} className="btn btn-sm btn-success">Add</button>
             </div>
         </div>
     );

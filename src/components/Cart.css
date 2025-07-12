@@ -1,0 +1,35 @@
+ .cart  .parent{
+    display: flex;
+  
+}
+ .cart  .parent .products-class {
+    flex: 3;
+    background-color: black;
+    border-radius: 2px;
+    border-color: beige;
+  
+}
+
+.cart .parent .products-class .total{
+    flex:1;
+}
+
+.cart .prod-cart {
+    display: flex;
+    align-items: center;
+    border: 1px  solid;
+    padding: 5px 10 px;
+    margin:12px;
+}
+
+.cart .prod-cart img {
+    height:80px 
+}
+ 
+.cart .prod-cart h6 {
+    flex: 4;
+}
+
+.cart .prod-cart label {
+    flex:3;
+}
