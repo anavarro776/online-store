@@ -35,9 +35,9 @@ function Navbar() {
                             
                             <Link className="btn btn-outline-dark" to="/cart">
                              {cart.length}
-                            View Cart
+                            View Cart </Link>
   
-                            </Link>
+                           
                         </form>
                     </div>
                 </div>

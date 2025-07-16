@@ -9,7 +9,7 @@ function GlobalProvider(props) {
         console.log("global add",prod);
         
         let copy=[...cart];
-        copy.push[prod];
+        copy.push(prod);
         setCart(copy);
 
         }

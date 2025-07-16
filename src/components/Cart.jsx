@@ -34,7 +34,7 @@ return(
             <h4> Price : </h4>
             <h5>Are You Ready to Create Order</h5>
             <h5> We Have {cart.length}  </h5>
-            <button   className="btn btn-primary">Pay</button>
+            <link onClick={pay} to = "/payment"  className="btn btn-primary">Pay</link>
         </div>
 
         </div>
